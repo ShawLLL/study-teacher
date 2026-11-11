@@ -232,7 +232,7 @@ claude plugin validate . --strict
 python -m unittest discover -s tests -v
 ```
 
-欢迎通过 Issue 分享学习体验、教学反例和改进建议。发布其他 Skill 时，也可以复用 [发布检查清单](../PUBLISHING.md)。
+欢迎通过 Issue 分享学习体验、教学反例和改进建议。
 
 ## License
 
