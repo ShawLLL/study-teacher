@@ -94,7 +94,7 @@ Study Teacher 把“问一次、答一次”变成一条完整的学习路径：
 在终端运行以下命令，从 GitHub 添加插件市场并安装：
 
 ```bash
-claude plugin marketplace add ShawLLL/my-skill
+claude plugin marketplace add ShawLLL/study-teacher
 claude plugin install study-teacher@study-teacher-marketplace
 ```
 
@@ -119,13 +119,13 @@ claude plugin install study-teacher@study-teacher-marketplace \
 macOS / Linux：
 
 ```bash
-git clone https://github.com/ShawLLL/my-skill.git ~/.claude/skills/study-teacher
+git clone https://github.com/ShawLLL/study-teacher.git ~/.claude/skills/study-teacher
 ```
 
 Windows PowerShell：
 
 ```powershell
-git clone https://github.com/ShawLLL/my-skill.git "$HOME\.claude\skills\study-teacher"
+git clone https://github.com/ShawLLL/study-teacher.git "$HOME\.claude\skills\study-teacher"
 ```
 
 也可以复制到项目的 `.claude/skills/study-teacher/`，只在该项目启用。重新开始会话后生效。
