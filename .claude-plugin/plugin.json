@@ -1,0 +1,29 @@
+{
+  "name": "study-teacher",
+  "displayName": "Study Teacher（学习老师）",
+  "version": "1.0.0",
+  "description": "教授新知识、通过练习与追问深化理解、诚实点评方案，并将确认后的学习档案沉淀到本地知识库。",
+  "author": {
+    "name": "ShawLLL"
+  },
+  "repository": "https://github.com/ShawLLL/my-skill",
+  "homepage": "https://github.com/ShawLLL/my-skill",
+  "license": "MIT",
+  "keywords": [
+    "learning",
+    "teaching",
+    "socratic",
+    "knowledge-base",
+    "chinese"
+  ],
+  "skills": [
+    "./"
+  ],
+  "userConfig": {
+    "knowledge_base_path": {
+      "type": "directory",
+      "title": "知识库目录",
+      "description": "学习档案保存的本地目录。留空时可使用环境变量、用户配置文件或首次使用时初始化。"
+    }
+  }
+}

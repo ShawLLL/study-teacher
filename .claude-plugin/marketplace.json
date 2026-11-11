@@ -1,0 +1,13 @@
+{
+  "name": "study-teacher-marketplace",
+  "description": "Study Teacher 学习老师 skill 的官方分发市场。",
+  "owner": {
+    "name": "ShawLLL"
+  },
+  "plugins": [
+    {
+      "name": "study-teacher",
+      "source": "./"
+    }
+  ]
+}
